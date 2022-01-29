@@ -41,9 +41,7 @@ background-size: cover;
   background-color: #fff;
 }
 .hero-section-2{
- 
-justify-content: center;
-align-items: center;
+  
   display: flex;
   flex-wrap: wrap;
 }
