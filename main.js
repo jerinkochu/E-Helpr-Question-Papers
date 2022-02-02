@@ -45,6 +45,34 @@ function bcom() {
         document.getElementById("main-6").style.display="none";
 
     }
+    if(x==7){
+        document.getElementById("main-7").style.display="block";
+        document.getElementById('main-7').scrollIntoView(60);
+    }else{
+        document.getElementById("main-7").style.display="none";
+
+    }
+    if(x==8){
+        document.getElementById("main-8").style.display="block";
+        document.getElementById('main-8').scrollIntoView(60);
+    }else{
+        document.getElementById("main-8").style.display="none";
+
+    }
+    if(x==9){
+        document.getElementById("main-9").style.display="block";
+        document.getElementById('main-9').scrollIntoView(60);
+    }else{
+        document.getElementById("main-9").style.display="none";
+
+    }
+    if(x==10){
+        document.getElementById("main-10").style.display="block";
+        document.getElementById('main-10').scrollIntoView(60);
+    }else{
+        document.getElementById("main-10").style.display="none";
+
+    }
     
     
 
