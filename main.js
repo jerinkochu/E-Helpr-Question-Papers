@@ -46,6 +46,7 @@ function bcom() {
 
     }
     if(x==7){
+        
         document.getElementById("main-7").style.display="block";
         document.getElementById('main-7').scrollIntoView(60);
     }else{
@@ -60,6 +61,7 @@ function bcom() {
 
     }
     if(x==9){
+       
         document.getElementById("main-9").style.display="block";
         document.getElementById('main-9').scrollIntoView(60);
     }else{
@@ -81,3 +83,10 @@ function bcom() {
 
 }
 
+
+
+
+
+
+
+  
