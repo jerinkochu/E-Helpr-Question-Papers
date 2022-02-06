@@ -1,4 +1,4 @@
-function bcom() {
+function finder() {
 
     var x = document.getElementById("mySelect").value;
 
