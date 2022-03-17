@@ -27,7 +27,7 @@ border-radius: 16px;
 box-shadow: 0 4px 30px rgba(161, 161, 161, 0.1);
 backdrop-filter: blur(12.1px);
 
-padding-bottom: 200px;
+padding-bottom: 130px;
 
 
 
@@ -84,27 +84,10 @@ table a:hover{
   color: black;
 
 }
-.glass{
-  background: rgba( 255, 255, 255, 0.1 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 1px );
--webkit-backdrop-filter: blur( 1px );
-border-radius: 10px;
-padding: 100px;
-}
 
 
-.contact-background{
-  display: flex;
 
-  justify-content:space-evenly;
-  flex-wrap: wrap;
-  text-align: center;
-  color: #fff;
-  padding-top: 50px;
-  align-items: center;
-  
-}
+
 
 footer{
  
@@ -133,7 +116,7 @@ box-shadow: 0 0 40px rgba(8,7,16,0.6);
 .wrapper{
 position: relative;
 width: 350px;
-padding: 30px;
+padding: 20px;
 border-radius: 10px;
 display: flex;
 align-items: center;
@@ -227,7 +210,7 @@ flex-direction: column;
           align-items: center;
           justify-content: space-around;
           flex-wrap: wrap;
-          padding-top: 10px;
+          padding-top: 20px;
         }
 
         .wrap-1{
