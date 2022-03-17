@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
-
+ 
 
 }
 
@@ -17,6 +17,20 @@
 
 background-position: center;
 background-size: cover;
+}
+.contain2{
+ 
+
+   /* From https://css.glass */
+background: rgba(16, 16, 16, 1);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(161, 161, 161, 0.1);
+backdrop-filter: blur(12.1px);
+
+padding-bottom: 200px;
+
+
+
 }
 
 
@@ -70,4 +84,154 @@ table a:hover{
   color: black;
 
 }
+.glass{
+  background: rgba( 255, 255, 255, 0.1 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 1px );
+-webkit-backdrop-filter: blur( 1px );
+border-radius: 10px;
+padding: 100px;
+}
 
+
+.contact-background{
+  display: flex;
+
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+  text-align: center;
+  color: #fff;
+  padding-top: 50px;
+  align-items: center;
+  
+}
+
+footer{
+ 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+   
+    color: white;
+    text-align: center;
+
+}
+
+
+.wrapper,
+.wrapper .img-area,
+.social-icons a,
+.buttons button{
+background-color: rgba(255,255,255,0.13);
+border-radius: 10px;
+backdrop-filter: blur(10px);
+border: 2px solid rgba(255,255,255,0.1);
+box-shadow: 0 0 40px rgba(8,7,16,0.6);
+}
+
+.wrapper{
+position: relative;
+width: 350px;
+padding: 30px;
+border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+}
+
+.wrapper .img-area{                    
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  .img-area .inner-area{
+  height: calc(100% - 25px);
+  width: calc(100% - 25px);
+  border-radius: 50%;
+  }
+  .inner-area img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  }
+  .wrapper .name{                        
+    font-size: 23px;
+    font-weight: 500;
+    color: white;
+    margin: 10px 0 5px 0;
+    }
+    .wrapper .about{
+    color: #d0d1d7;
+    font-weight: 400;
+    font-size: 16px;
+    }
+
+    .wrapper .social-icons{
+      margin: 15px 0 25px 0;
+      }
+      .social-icons a{
+      position: relative;
+      height: 40px;
+      width: 40px;
+      margin: 0 5px;
+      display: inline-flex;
+      text-decoration: none;
+      border-radius: 50%;
+      }                                      
+      .social-icons a:hover::before,
+      .wrapper .icon:hover::before,
+      .buttons button:hover:before{
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      border-radius: 50%;
+      background: #ecf0f3;
+      box-shadow: inset -3px -3px 7px #ffffff,
+                inset 3px 3px 5px #ceced1;
+      }
+
+      .social-icons a i{
+        position: relative;
+        z-index: 3;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        font-size: 20px;
+        line-height: 35px;
+        }
+        .social-icons a:nth-last-child(1) i{
+        color: #13d151;
+        }
+        .social-icons a:nth-last-child(2) i{
+        color: #e6ba12;
+        }
+        .social-icons a:nth-last-child(3) i{
+        color: #1da9e9;
+        }
+        .social-icons a:nth-last-child(4) i{
+        color: #f23400;
+        }
+        
+        .wrap{
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          flex-wrap: wrap;
+          padding-top: 10px;
+        }
+
+        .wrap-1{
+          padding-top: 40px;
+        }
+      
+     
