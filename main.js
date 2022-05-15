@@ -78,11 +78,6 @@ function finder() {
 
     }
     
-    
-   
-    
-
-
 }
 
 window.addEventListener("load",finder);

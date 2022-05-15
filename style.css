@@ -6,6 +6,17 @@
  
 
 }
+.about-pg-img{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),url(images/Photos-9-compressor.jpg);
+
+background-position: center;
+background-size: cover;
+}
 
 .contain{
   margin: 0;
@@ -13,7 +24,7 @@
   width: 100%;
   height: 100vh;
   
-  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),url("https://images.unsplash.com/photo-1610484826967-09c5720778c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.466),rgba(0, 0, 0, 0.295)),url("https://images.unsplash.com/photo-1610484826967-09c5720778c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
 
 background-position: center;
 background-size: cover;
@@ -21,13 +32,13 @@ background-size: cover;
 .contain2{
  
 
-   /* From https://css.glass */
+   /* From https://css.glass*/ 
 background: rgba(16, 16, 16, 1);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(161, 161, 161, 0.1);
 backdrop-filter: blur(12.1px);
 
-padding-bottom: 130px;
+padding-bottom: 130px; 
 
 
 
@@ -86,9 +97,6 @@ table a:hover{
 }
 
 
-
-
-
 .main-footer{
  
     position: relative;
@@ -118,22 +126,24 @@ footer{
 .wrapper .img-area,
 .social-icons a,
 .buttons button{
-background-color: rgba(255,255,255,0.13);
+background-color:transparent;
 border-radius: 10px;
-backdrop-filter: blur(10px);
+backdrop-filter: blur(px);
 border: 2px solid rgba(255,255,255,0.1);
 box-shadow: 0 0 40px rgba(8,7,16,0.6);
+
 }
 
 .wrapper{
 position: relative;
-width: 350px;
-padding: 20px;
+width: 320px;
+padding: 15px;
 border-radius: 10px;
 display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: column;
+outline: solid 1px white;
 
 }
 
@@ -157,16 +167,17 @@ flex-direction: column;
   object-fit: cover;
   }
   .wrapper .name{                        
-    font-size: 23px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 400;
     color: white;
     margin: 10px 0 5px 0;
     }
     .wrapper .about{
-    color: #d0d1d7;
-    font-weight: 400;
+    color: white;
+    font-weight: 350;
     font-size: 16px;
     }
+
 
     .wrapper .social-icons{
       margin: 15px 0 25px 0;
@@ -222,11 +233,15 @@ flex-direction: column;
           align-items: center;
           justify-content: space-around;
           flex-wrap: wrap;
-          padding-top: 20px;
+        
+        
+          padding-bottom: 50px;
         }
+       
+        
 
         .wrap-1{
-          padding-top: 50px;
+          padding-top: 30px;
         }
       
         *,
