@@ -2,6 +2,8 @@ function finder() {
 
     var x = document.getElementById("mySelect").value;
 
+   
+
     if(x==1){
         document.getElementById("main").style.display="block";
         document.getElementById('main').scrollIntoView(60);
@@ -77,12 +79,13 @@ function finder() {
     }
     
     
-
+   
     
 
 
 }
 
+window.addEventListener("load",finder);
  
 
 
