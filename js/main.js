@@ -38,7 +38,6 @@ function finder() {
   } else {
     document.getElementById("main-6").style.display = "none";
   }
-
 }
 
 window.addEventListener("load", finder);
