@@ -201,6 +201,14 @@ footer {
 .social-icons a:nth-last-child(4) i {
   color: #f23400;
 }
+.community-img{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+
+
+}
+ 
 
 .wrap {
   display: flex;
