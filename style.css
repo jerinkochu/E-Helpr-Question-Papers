@@ -108,7 +108,7 @@ footer {
   border-radius: 10px;
   backdrop-filter: blur(px);
   border: 2px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  box-shadow: 0 0 40px rgba(205, 205, 211, 0.007);
 }
 
 .wrapper {
@@ -120,8 +120,10 @@ footer {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  outline: solid 1px white;
+  
 }
+
+
 
 .wrapper .img-area {
   height: 150px;
@@ -130,6 +132,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  
+
 }
 .img-area .inner-area {
   height: calc(100% - 25px);
@@ -165,6 +169,7 @@ footer {
   display: inline-flex;
   text-decoration: none;
   border-radius: 50%;
+ 
 }
 .social-icons a:hover::before,
 .wrapper .icon:hover::before,
