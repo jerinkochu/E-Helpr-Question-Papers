@@ -312,3 +312,96 @@ p {
     transform: translateY(-5px);
   }
 }
+@media only screen and (max-width: 450px) {
+  div .about-container{
+    padding: 90px;
+  }
+  div .about-title{
+    color: white;
+    padding-top: 20px;
+  }
+  div .about-content{
+    color: white;
+    padding-top: 20px;
+  }
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  div .about-container{
+    padding: 90px;
+  }
+  div .about-title{
+    color: white;
+    padding-top: 20px;
+  }
+  div .about-content{
+    color: white;
+    padding-top: 20px;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  div .about-container{
+    padding: 100px;
+  }
+  div .about-title{
+    color: white;
+    padding-top: 20px;
+  }
+  div .about-content{
+    color: white;
+    padding-top: 20px;
+    
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  div .about-container{
+    padding: 100px;
+  }
+  div .about-title{
+    color: white;
+    padding-top: 20px;
+  }
+  div .about-content{
+    color: white;
+    padding-top: 20px;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  div .about-container{
+    padding: 90px;
+   
+  
+ 
+  }
+  div .about-title{
+    color: white;
+    padding-top: 70px;
+  }
+  div .about-content{
+    color: white;
+    padding-top: 20px;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+  div .about-container{
+    padding: 100px;
+    margin-top: 10px;
+    
+    align-items: center;
+    justify-content: center;
+  }
+  div .about-title{
+    color: white;
+    padding-top: 50px;
+  }
+  div .about-content{
+    color: white;
+    padding-top: 20px;
+    align-items: center;
+  }
+}
