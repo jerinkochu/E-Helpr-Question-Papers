@@ -23,7 +23,19 @@
   height: 100vh;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.295)),
-    url("https://images.unsplash.com/photo-1610484826967-09c5720778c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    url("http://images.unsplash.com/photo-1610484826967-09c5720778c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+
+  background-position: center;
+  background-size: cover;
+}
+.contain-sub {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.295)),
+    url("https://images.unsplash.com/photo-1580582932707-520aed937b7b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80");
 
   background-position: center;
   background-size: cover;
@@ -31,11 +43,12 @@
 .contain2 {
   /* From https://css.glass*/
   background: rgba(16, 16, 16, 1);
-  border-radius: 16px;
+
   box-shadow: 0 4px 30px rgba(161, 161, 161, 0.1);
   backdrop-filter: blur(12.1px);
 
-  padding-bottom: 130px;
+
+
 }
 h1 {
   font-size: 70px;
@@ -91,7 +104,7 @@ table a:hover {
 }
 
 footer {
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -316,7 +329,8 @@ p {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   div .about-container{
-    padding: 70px;
+    padding: 60px;
+    padding-top: 90px;
   }
   div .about-title{
     color: white;
